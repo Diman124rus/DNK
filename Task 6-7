@@ -13,7 +13,6 @@ def my_title(text):
     listed_text[0] = listed_text[0].upper()
     return ''.join(listed_text)
 
-
 output_1 = []
 output_2 = []
 for word in input('Введите слова которые будут разделены пробелами: ').split(' '):
