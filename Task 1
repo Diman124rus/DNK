@@ -2,6 +2,6 @@
 # Реализовать скрипт проверки типа данных каждого элемента. Использовать функцию type() для проверки типа. 
 # Элементы списка можно не запрашивать у пользователя, а указать явно, в программе.
 
-type_list = [9, 5/6, True, [1,2], "Hello", {"mp3": "Maxim", "Author": "Life"},(1,2)]
-for i in range (len(type_list)) :
-    print(f"Тип переменной в списке: {type(type_list[i])}")
+type_list = ['cat', 1, (2,), [1, 2], 3.1, False, frozenset('1'), set('1')]
+for el in type_list:
+print(type(el))
